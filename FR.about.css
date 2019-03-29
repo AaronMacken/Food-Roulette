@@ -1,18 +1,78 @@
-html, body{
+html, body {
     height: 100%;
     width: 100%;
     margin: 0;
+}
+
+/* First Page */
+.landingPage {
+    height: 100%;
     background: url(succulenfruitz.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.nav-item{
+
+.nav-item {
     text-align: right;
 }
-.landingPage h1{
+
+h2 {
+    font-weight: 200;
+}
+
+.introContent {
+    margin-bottom: 1rem;
+}
+
+#myH1 {
     font-family: 'Great Vibes', cursive;
     font-size: 5rem;
-    
+}
+
+.people {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.person1 {
+    background: #D3D3D3;
+}
+
+.person2 {
+    background: rgb(76, 217, 100);
+}
+
+.myHr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15));
+}
+#endStruggle{
+    margin-top: 2rem;
+}
+#myArrow{
+    color: #fff;
+    font-weight: 100;
+    font-size: 10rem;
+    margin-top: 1rem;
+}
+
+/* Second Page */
+.secondPage{
+    height: 100%;
+    background: url(foodbg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#howToPlay{
+    background: rgba(244, 244, 244, 0.653);
+    color: rgb(12, 8, 8);  
+    padding: 1rem;
+}
+.btn{
+    font-size: 2rem;
 }
