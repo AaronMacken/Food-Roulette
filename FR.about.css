@@ -5,6 +5,7 @@ html, body {
 }
 
 /* First Page */
+
 .landingPage {
     height: 100%;
     background: url(succulenfruitz.jpeg) no-repeat center center fixed;
@@ -13,6 +14,7 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 .nav-item {
     text-align: right;
@@ -49,10 +51,12 @@ h2 {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15));
 }
-#endStruggle{
+
+#endStruggle {
     margin-top: 2rem;
 }
-#myArrow{
+
+#myArrow {
     color: #fff;
     font-weight: 100;
     font-size: 10rem;
@@ -60,7 +64,8 @@ h2 {
 }
 
 /* Second Page */
-.secondPage{
+
+.secondPage {
     height: 100%;
     background: url(foodbg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -68,11 +73,65 @@ h2 {
     -o-background-size: cover;
     background-size: cover;
 }
-#howToPlay{
+
+#howToPlay {
     background: rgba(244, 244, 244, 0.653);
-    color: rgb(12, 8, 8);  
+    color: rgb(12, 8, 8);
     padding: 1rem;
 }
-.btn{
+
+.btn {
     font-size: 2rem;
 }
+/* Large devices (desktops, less than 1200px) */
+
+@media screen and (max-width: 1199.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media screen and (max-width: 991.98px) {
+    #myH1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
+/* Small devices (landscape phones, less than 768px) */
+
+@media screen and (max-width: 767.98px) {
+    .landingPage {
+        height: 100%;
+        background: url(succulenfruitz.jpeg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .layer{
+        background: rgba(244, 244, 244, 0.653);
+    }
+    .container{
+        margin: 0;
+    }
+    #myH1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media screen and (max-width: 575.98px) {
+   #myH1{
+       font-size: 2rem;
+   }
+}
+
+
+
+
