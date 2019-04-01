@@ -79,6 +79,10 @@ h2 {
     color: rgb(12, 8, 8);
     padding: 1rem;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 
 .btn {
     font-size: 2rem;
@@ -92,6 +96,9 @@ h2 {
 /* Medium devices (tablets, less than 992px) */
 
 @media screen and (max-width: 991.98px) {
+    .people{
+        font-size: 1.15rem;
+    }
     #myH1{
         font-size: 4rem;
     }
@@ -102,14 +109,8 @@ h2 {
 /* Small devices (landscape phones, less than 768px) */
 
 @media screen and (max-width: 767.98px) {
-    .landingPage {
-        height: 100%;
-        background: url(succulenfruitz.jpeg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+
+    
     .layer{
         background: rgba(244, 244, 244, 0.653);
     }
@@ -130,8 +131,17 @@ h2 {
    #myH1{
        font-size: 2rem;
    }
+   .people{
+       font-size: 1rem;
+   }
 }
 
+/* Scroll point 300 px */
+@media screen and (max-width: 300px){
+    body{
+        width: 300px;
+    }
+}
 
 
 
