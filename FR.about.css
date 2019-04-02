@@ -7,14 +7,24 @@ html, body {
 /* First Page */
 
 .landingPage {
+    min-height: 435px;
     height: 100%;
-    background: url(succulenfruitz.jpeg) no-repeat center center fixed;
+    background: url(succulenfruitz.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
+.nav-link{
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(244, 244, 244, 0.653);
+    width: 5rem;
+    height: 2rem;
+    font-size: .75rem;
+}
 
 .nav-item {
     text-align: right;
@@ -66,8 +76,8 @@ h2 {
 /* Second Page */
 
 .secondPage {
-    height: 100%;
-    background: url(foodbg.png) no-repeat center center fixed;
+    
+    background: url(foodbg.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,6 +92,7 @@ h2 {
 img {
     width: 100%;
     height: auto;
+    float: none;
 }
 
 .btn {
@@ -109,11 +120,15 @@ img {
 /* Small devices (landscape phones, less than 768px) */
 
 @media screen and (max-width: 767.98px) {
+    .landingPage{
+    background: url(succulenfruitz2.jpeg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 
     
-    .layer{
-        background: rgba(244, 244, 244, 0.653);
-    }
     .container{
         margin: 0;
     }
@@ -141,6 +156,16 @@ img {
     body{
         width: 300px;
     }
+}
+
+@media screen and (max-height: 625px){
+    #myArrow{
+        display: none;
+    }
+    #endStruggle{
+        margin-top: 0rem;
+    }
+
 }
 
 
