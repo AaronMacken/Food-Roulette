@@ -16,6 +16,7 @@ html, body {
     background-size: cover;
 }
 
+/* Give a background to the nav links even though the BG is set to transparent in bootstrap */
 .nav-link{
     display: inline-block;
     text-align: center;
@@ -26,6 +27,7 @@ html, body {
     font-size: .75rem;
 }
 
+/* Align nav items on right side of screen */
 .nav-item {
     text-align: right;
 }
@@ -43,29 +45,35 @@ h2 {
     font-size: 5rem;
 }
 
+/* Styling for both of the 'text' messages */
 .people {
     margin: 0;
     font-size: 1.25rem;
 }
 
+/* first person's styling */
 .person1 {
     background: #D3D3D3;
 }
 
+/* second person's styling */
 .person2 {
     background: rgb(76, 217, 100);
 }
 
+/* horizontal rule styling */
 .myHr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.15));
 }
 
+/* spacing for bottom portion of landing page content */
 #endStruggle {
     margin-top: 2rem;
 }
 
+/* arrow image styling */
 #myArrow {
     color: #fff;
     font-weight: 100;
@@ -74,9 +82,7 @@ h2 {
 }
 
 /* Second Page */
-
 .secondPage {
-    
     background: url(foodbg.png) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -84,11 +90,13 @@ h2 {
     background-size: cover;
 }
 
-#howToPlay {
+#howItWorksDiv{
     background: rgba(244, 244, 244, 0.653);
     color: rgb(12, 8, 8);
     padding: 1rem;
 }
+
+/* Scale image with screen size */
 img {
     width: 100%;
     height: auto;
@@ -98,11 +106,7 @@ img {
 .btn {
     font-size: 2rem;
 }
-/* Large devices (desktops, less than 1200px) */
 
-@media screen and (max-width: 1199.98px) {
-
-}
 
 /* Medium devices (tablets, less than 992px) */
 
