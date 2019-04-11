@@ -2,6 +2,12 @@ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* Remove blue border from hamburger menu */
+button:focus {
+    outline: none;
 }
 
 /* First Page */
@@ -17,7 +23,8 @@ html, body {
 }
 
 /* Give a background to the nav links even though the BG is set to transparent in bootstrap */
-.nav-link{
+
+.nav-link {
     display: inline-block;
     text-align: center;
     border-radius: 5px;
@@ -28,6 +35,7 @@ html, body {
 }
 
 /* Align nav items on right side of screen */
+
 .nav-item {
     text-align: right;
 }
@@ -47,22 +55,26 @@ h2 {
 }
 
 /* Styling for both of the 'text' messages */
+
 .people {
     margin: 0;
     font-size: 1.25rem;
 }
 
 /* first person's styling */
+
 .person1 {
     background: #D3D3D3;
 }
 
 /* second person's styling */
+
 .person2 {
     background: rgb(76, 217, 100);
 }
 
 /* horizontal rule styling */
+
 .myHr {
     border: 0;
     height: 1px;
@@ -70,19 +82,23 @@ h2 {
 }
 
 /* spacing for bottom portion of landing page content */
+
 #endStruggle {
     margin-top: 2rem;
 }
 
 /* arrow image styling */
+
 #myArrow {
     color: #fff;
     font-weight: 100;
     font-size: 10rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 /* Second Page */
+
 .secondPage {
     background: url(foodbg.png) no-repeat center center;
     -webkit-background-size: cover;
@@ -91,13 +107,14 @@ h2 {
     background-size: cover;
 }
 
-#howItWorksDiv{
+#howItWorksDiv {
     background: rgba(244, 244, 244, 0.653);
     color: rgb(12, 8, 8);
     padding: 1rem;
 }
 
 /* Scale image with screen size */
+
 img {
     width: 100%;
     height: auto;
@@ -108,39 +125,37 @@ img {
     font-size: 2rem;
 }
 
-
 /* Medium devices (tablets, less than 992px) */
 
 @media screen and (max-width: 991.98px) {
-    .people{
+    .people {
         font-size: 1.15rem;
     }
-    #myH1{
+    #myH1 {
         font-size: 4rem;
     }
-    h2{
+    h2 {
         font-size: 1.5rem;
     }
 }
+
 /* Small devices (landscape phones, less than 768px) */
 
 @media screen and (max-width: 767.98px) {
-    .landingPage{
-    background: url(succulenfruitz2.jpeg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    .landingPage {
+        background: url(succulenfruitz2.jpeg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
-
-    
-    .container{
+    .container {
         margin: 0;
     }
-    #myH1{
+    #myH1 {
         font-size: 3rem;
     }
-    h2{
+    h2 {
         font-size: 1.3rem;
     }
 }
@@ -148,30 +163,27 @@ img {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media screen and (max-width: 575.98px) {
-   #myH1{
-       font-size: 2rem;
-   }
-   .people{
-       font-size: 1rem;
-   }
+    #myH1 {
+        font-size: 2rem;
+    }
+    .people {
+        font-size: 1rem;
+    }
 }
 
 /* Scroll point 300 px */
-@media screen and (max-width: 300px){
-    body{
+
+@media screen and (max-width: 300px) {
+    body {
         width: 300px;
     }
 }
 
-@media screen and (max-height: 625px){
-    #myArrow{
+@media screen and (max-height: 625px) {
+    #myArrow {
         display: none;
     }
-    #endStruggle{
+    #endStruggle {
         margin-top: 0rem;
     }
-
 }
-
-
-
