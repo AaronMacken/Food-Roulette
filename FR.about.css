@@ -8,7 +8,7 @@ html, body {
 
 .landingPage {
     min-height: 435px;
-    height: 100%;
+    height: auto;
     background: url(succulenfruitz.jpeg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,6 +38,7 @@ h2 {
 
 .introContent {
     margin-bottom: 1rem;
+    height: 100%;
 }
 
 #myH1 {
